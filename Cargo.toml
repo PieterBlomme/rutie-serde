@@ -12,5 +12,5 @@ license = "MIT"
 
 [dependencies]
 log = "0.4.13"
-rutie = "0.8.1"
+rutie = { git = "https://github.com/PieterBlomme/rutie.git" } # forked until https://github.com/danielpclark/rutie/issues/160 is resolved
 serde = "1.0.119"
